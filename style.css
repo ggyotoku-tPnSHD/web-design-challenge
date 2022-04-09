@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+    background-color: transparent;
+    font-family: helvetica;
+    font-size: large;
+
+}
+
+img {
+
+    padding-right: 5%;
+
+}
+
+p {
+    padding-inline: 10%;
+
+}
+
+#smallShow {
+    background-color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px sans-serif;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
+}

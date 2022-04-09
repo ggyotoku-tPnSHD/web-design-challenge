@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Max Temperature</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<Body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../../index.html">
+            <h1><strong>Latitude</strong></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>                    
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windSpeed.html">Wind Speed</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="comparison.html">Comparison</a>
+                        <a class="dropdown-item" href="data.html">Data</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+
+
+    <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-sm-12">
+              <h1>Max Temperature</h1>
+              <hr>
+                <img src="fig1.png" alt="maxtemp" height="400" width="600" align="center">
+                <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). 
+                More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year
+                than the northern hemisphere.  This may be due to the tilt of the earth at the time of the year the data was gathered.
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                    <h2>Visualizations</h2>
+                    <hr>
+                        <div class= "col-md-6 col-sm-3">
+                            <img class ="boxx" id = "pic1" src="fig1.png" alt="maxtemp" height="150" width="150"> 
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                            <img id ="pic2" src="fig2.png" alt="humidity" height="150" width="150">
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                            <img id = "pic3" src="fig3.png" alt="cloudiness" height="150" width="150">
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                            <img id = "pic4" src="fig4.png" alt="windspeed" height="150" width="150">
+                        </div> 
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
